@@ -1,0 +1,21 @@
+name: Test Flask App in Docker
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐳 Build Docker image
+        run: docker build -t oss-flask-app .
+
+      - name: ✅ Run tests inside container
+        run: docker run --rm oss-flask-app pytest test_app.py
