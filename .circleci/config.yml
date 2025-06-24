@@ -1,21 +1,26 @@
-name: Test Flask App in Docker
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+version: 2.1
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    docker:
+      - image: cimg/base:stable  # Base image with Docker support
 
     steps:
-      - name: ⬇️ Checkout repository
-        uses: actions/checkout@v3
+      - checkout
 
-      - name: 🐳 Build Docker image
-        run: docker build -t oss-app .
+      - setup_remote_docker:
+          docker_layer_caching: true
 
-      - name: ✅ Run tests inside container
-        run: docker run --rm oss-app pytest test_app.py
+      - run:
+          name: 🐳 Build Docker image
+          command: docker build -t oss-app .
+
+      - run:
+          name: ✅ Run tests inside container
+          command: docker run --rm oss-app pytest test_app.py
+
+workflows:
+  version: 2
+  test-workflow:
+    jobs:
+      - test
