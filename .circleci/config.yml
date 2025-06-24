@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 🐳 Build Docker image
-        run: docker build -t oss-flask-app .
+        run: docker build -t oss-app .
 
       - name: ✅ Run tests inside container
-        run: docker run --rm oss-flask-app pytest test_app.py
+        run: docker run --rm oss-app pytest test_app.py
