@@ -3,21 +3,14 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: cimg/base:stable  # Base image with Docker support
+      - image: navarasan0112/oss-circleci-app:latest  # ← use your own image
 
     steps:
       - checkout
 
-      - setup_remote_docker:
-          docker_layer_caching: true
-
       - run:
-          name: 🐳 Build Docker image
-          command: docker build -t oss-app .
-
-      - run:
-          name: ✅ Run tests inside container
-          command: docker run --rm oss-app pytest test_app.py
+          name: ✅ Run tests
+          command: pytest test_app.py
 
 workflows:
   version: 2
