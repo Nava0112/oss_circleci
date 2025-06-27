@@ -177,6 +177,55 @@ def add_product_by_supplier():
         return redirect(url_for('supplier_products'))
     return render_template('add_product_by_supplier.html')
 
+
+@app.route('/view_records/<record_type>')
+def view_records(record_type):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    if record_type == 'customers':
+        cursor.execute("SELECT * FROM Customers")
+        records = cursor.fetchall()
+        headers = ['CustomerID', 'CustomerName', 'PhoneNumber', 'Email', 'Address']
+
+    elif record_type == 'suppliers':
+        cursor.execute("SELECT * FROM Suppliers")
+        records = cursor.fetchall()
+        headers = ['SupplierID', 'SupplierName', 'PhoneNumber', 'Email', 'Address']
+
+    elif record_type == 'products':
+        cursor.execute("SELECT * FROM Products")
+        records = cursor.fetchall()
+        headers = ['ProductID', 'ProductName', 'SupplierID', 'Category', 'UnitPrice', 'QuantityInStock']
+
+    else:
+        cursor.close()
+        conn.close()
+        return "Invalid record type", 400
+
+    cursor.close()
+    conn.close()
+
+    return render_template('view_records.html', record_type=record_type.title(), headers=headers, records=records)
+
+@app.route('/admin_home')
+def admin_home():
+    return render_template('admin_home.html')
+
+
+@app.route('/login_admin', methods=['GET', 'POST'])
+def login_admin():
+    if request.method == 'POST':
+        admin_id = request.form['AdminID']
+        admin_pass = request.form['AdminPassword']
+        if admin_id == '112233' and admin_pass == '123':
+            session['admin'] = True
+            return redirect(url_for('admin_home'))
+        else:
+            return "Invalid admin credentials"
+    return render_template('login_admin.html')
+
+
 # ------------------ LOGOUT ------------------
 @app.route('/logout')
 def logout():

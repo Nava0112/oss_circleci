@@ -1,4 +1,3 @@
-<!-- login_customer.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,8 @@
 </head>
 <body class="bg-light">
   <div class="container mt-5">
-    <h3 class="text-center">Customer Login</h3>
+    <h3 class="text-center mb-4">Customer Login</h3>
+    
     <form method="POST" class="shadow p-4 bg-white rounded">
       <div class="mb-3">
         <label for="CustomerID" class="form-label">Customer ID</label>
@@ -18,10 +18,15 @@
         <label for="CustomerName" class="form-label">Customer Name</label>
         <input type="text" class="form-control" name="CustomerName" required>
       </div>
-      <button type="submit" class="btn btn-primary">Login</button>
-      <a href="{{ url_for('add_customer') }}" class="btn btn-link">New Customer?</a>
-      <a href="{{ url_for('login_supplier') }}" class="btn btn-outline-secondary float-end">I am a Supplier</a>
+      <div class="d-flex justify-content-between align-items-center">
+        <button type="submit" class="btn btn-primary">Login</button>
+        <a href="{{ url_for('add_customer') }}" class="btn btn-link">New Customer?</a>
+      </div>
+      <div class="d-flex justify-content-between mt-3">
+        <a href="{{ url_for('login_supplier') }}" class="btn btn-outline-secondary">I am a Supplier</a>
+        <a href="{{ url_for('login_admin') }}" class="btn btn-dark">I am an Admin</a>
+      </div>
     </form>
   </div>
 </body>
-</ht
+</html>

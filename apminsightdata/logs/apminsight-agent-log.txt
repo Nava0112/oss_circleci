@@ -1,0 +1,604 @@
+2025-06-25 12:03:16,537 20936 INFO http.client instrumented
+2025-06-25 12:03:16,537 20936 INFO http.client instrumented
+2025-06-25 12:03:16,537 20936 INFO urllib.request instrumented
+2025-06-25 12:03:16,537 20936 INFO urllib.request instrumented
+2025-06-25 12:03:16,539 20936 INFO concurrent.futures instrumented
+2025-06-25 12:03:16,539 20936 INFO concurrent.futures instrumented
+2025-06-25 12:03:16,539 20936 INFO django.core.handlers.asgi is not present
+2025-06-25 12:03:16,539 20936 INFO django.core.handlers.asgi is not present
+2025-06-25 12:03:16,540 20936 INFO django.core.handlers.wsgi is not present
+2025-06-25 12:03:16,540 20936 INFO django.core.handlers.wsgi is not present
+2025-06-25 12:03:16,540 20936 INFO django.core.handlers.base is not present
+2025-06-25 12:03:16,540 20936 INFO django.core.handlers.base is not present
+2025-06-25 12:03:16,540 20936 INFO django.conf.urls is not present
+2025-06-25 12:03:16,540 20936 INFO django.conf.urls is not present
+2025-06-25 12:03:16,541 20936 INFO django.urls is not present
+2025-06-25 12:03:16,541 20936 INFO django.urls is not present
+2025-06-25 12:03:16,541 20936 INFO django.template is not present
+2025-06-25 12:03:16,541 20936 INFO django.template is not present
+2025-06-25 12:03:16,541 20936 INFO django.core.wsgi is not present
+2025-06-25 12:03:16,541 20936 INFO django.core.wsgi is not present
+2025-06-25 12:03:16,541 20936 INFO django.core.asgi is not present
+2025-06-25 12:03:16,541 20936 INFO django.core.asgi is not present
+2025-06-25 12:03:16,735 20936 INFO sqlite3 instrumented
+2025-06-25 12:03:16,735 20936 INFO sqlite3 instrumented
+2025-06-25 12:03:16,736 20936 INFO sqlite3.dbapi2 instrumented
+2025-06-25 12:03:16,736 20936 INFO sqlite3.dbapi2 instrumented
+2025-06-25 12:03:16,737 20936 INFO pymysql is not present
+2025-06-25 12:03:16,737 20936 INFO pymysql is not present
+2025-06-25 12:03:16,738 20936 INFO MySQLdb.connections is not present
+2025-06-25 12:03:16,738 20936 INFO MySQLdb.connections is not present
+2025-06-25 12:03:17,089 20936 INFO flask instrumented
+2025-06-25 12:03:17,089 20936 INFO flask instrumented
+2025-06-25 12:03:17,090 20936 INFO redis.client is not present
+2025-06-25 12:03:17,090 20936 INFO redis.client is not present
+2025-06-25 12:03:17,090 20936 INFO redis.connection is not present
+2025-06-25 12:03:17,090 20936 INFO redis.connection is not present
+2025-06-25 12:03:17,091 20936 INFO redis.asyncio.client is not present
+2025-06-25 12:03:17,091 20936 INFO redis.asyncio.client is not present
+2025-06-25 12:03:17,091 20936 INFO jinja2.environment instrumented
+2025-06-25 12:03:17,091 20936 INFO jinja2.environment instrumented
+2025-06-25 12:03:17,091 20936 INFO pymemcache.client.base is not present
+2025-06-25 12:03:17,091 20936 INFO pymemcache.client.base is not present
+2025-06-25 12:03:17,092 20936 INFO psycopg2 is not present
+2025-06-25 12:03:17,092 20936 INFO psycopg2 is not present
+2025-06-25 12:03:17,093 20936 INFO psycopg2.extensions is not present
+2025-06-25 12:03:17,093 20936 INFO psycopg2.extensions is not present
+2025-06-25 12:03:17,093 20936 INFO psycopg2._psycopg is not present
+2025-06-25 12:03:17,093 20936 INFO psycopg2._psycopg is not present
+2025-06-25 12:03:17,094 20936 INFO psycopg2._json is not present
+2025-06-25 12:03:17,094 20936 INFO psycopg2._json is not present
+2025-06-25 12:03:17,094 20936 INFO cassandra.cluster is not present
+2025-06-25 12:03:17,094 20936 INFO cassandra.cluster is not present
+2025-06-25 12:03:17,095 20936 INFO memcache is not present
+2025-06-25 12:03:17,095 20936 INFO memcache is not present
+2025-06-25 12:03:17,095 20936 INFO bottle is not present
+2025-06-25 12:03:17,095 20936 INFO bottle is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cptree is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cptree is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cpwsgi is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cpwsgi is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cprequest is not present
+2025-06-25 12:03:17,096 20936 INFO cherrypy._cprequest is not present
+2025-06-25 12:03:17,097 20936 INFO cherrypy._cpdispatch is not present
+2025-06-25 12:03:17,097 20936 INFO cherrypy._cpdispatch is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.router is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.router is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.config is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.config is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.config.views is not present
+2025-06-25 12:03:17,098 20936 INFO pyramid.config.views is not present
+2025-06-25 12:03:17,099 20936 INFO pyramid.renderers is not present
+2025-06-25 12:03:17,099 20936 INFO pyramid.renderers is not present
+2025-06-25 12:03:17,099 20936 INFO pyramid.httpexceptions is not present
+2025-06-25 12:03:17,099 20936 INFO pyramid.httpexceptions is not present
+2025-06-25 12:03:17,100 20936 INFO mako.template is not present
+2025-06-25 12:03:17,100 20936 INFO mako.template is not present
+2025-06-25 12:03:17,100 20936 INFO genshi.template is not present
+2025-06-25 12:03:17,100 20936 INFO genshi.template is not present
+2025-06-25 12:03:17,101 20936 INFO genshi is not present
+2025-06-25 12:03:17,101 20936 INFO genshi is not present
+2025-06-25 12:03:17,418 20936 INFO httpx._client instrumented
+2025-06-25 12:03:17,418 20936 INFO httpx._client instrumented
+2025-06-25 12:03:17,419 20936 INFO httplib2 is not present
+2025-06-25 12:03:17,419 20936 INFO httplib2 is not present
+2025-06-25 12:03:17,481 20936 INFO urllib3.connectionpool instrumented
+2025-06-25 12:03:17,481 20936 INFO urllib3.connectionpool instrumented
+2025-06-25 12:03:17,481 20936 INFO asyncpg is not present
+2025-06-25 12:03:17,481 20936 INFO asyncpg is not present
+2025-06-25 12:03:17,481 20936 INFO aiomysql.cursors is not present
+2025-06-25 12:03:17,481 20936 INFO aiomysql.cursors is not present
+2025-06-25 12:03:17,482 20936 INFO aioredis.client is not present
+2025-06-25 12:03:17,482 20936 INFO aioredis.client is not present
+2025-06-25 12:03:17,482 20936 INFO aredis.client is not present
+2025-06-25 12:03:17,482 20936 INFO aredis.client is not present
+2025-06-25 12:03:17,482 20936 INFO pymongo.mongo_client is not present
+2025-06-25 12:03:17,482 20936 INFO pymongo.mongo_client is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.topology is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.topology is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.database is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.database is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.collection is not present
+2025-06-25 12:03:17,483 20936 INFO pymongo.collection is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.concurrency is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.concurrency is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.applications is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.applications is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.routing is not present
+2025-06-25 12:03:17,484 20936 INFO starlette.routing is not present
+2025-06-25 12:03:17,485 20936 INFO starlette.middleware.exceptions is not present
+2025-06-25 12:03:17,485 20936 INFO starlette.middleware.exceptions is not present
+2025-06-25 12:03:17,485 20936 INFO starlette.exceptions is not present
+2025-06-25 12:03:17,485 20936 INFO starlette.exceptions is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.middleware.errors is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.middleware.errors is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.background is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.background is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.responses is not present
+2025-06-25 12:03:17,486 20936 INFO starlette.responses is not present
+2025-06-25 12:03:17,487 20936 INFO fastapi.applications is not present
+2025-06-25 12:03:17,487 20936 INFO fastapi.applications is not present
+2025-06-25 12:03:17,487 20936 INFO fastapi.routing is not present
+2025-06-25 12:03:17,487 20936 INFO fastapi.routing is not present
+2025-06-25 12:03:17,488 20936 INFO cx_Oracle instrumented
+2025-06-25 12:03:17,488 20936 INFO cx_Oracle instrumented
+2025-06-25 12:03:17,489 20936 INFO oracledb is not present
+2025-06-25 12:03:17,489 20936 INFO oracledb is not present
+2025-06-25 12:03:17,489 20936 INFO pymssql is not present
+2025-06-25 12:03:17,489 20936 INFO pymssql is not present
+2025-06-25 12:03:17,489 20936 INFO pyodbc is not present
+2025-06-25 12:03:17,489 20936 INFO pyodbc is not present
+2025-06-25 12:03:17,489 20936 INFO streamlit.runtime.scriptrunner.script_runner is not present
+2025-06-25 12:03:17,489 20936 INFO streamlit.runtime.scriptrunner.script_runner is not present
+2025-06-25 12:03:17,681 20936 INFO tornado.httpserver instrumented
+2025-06-25 12:03:17,681 20936 INFO tornado.httpserver instrumented
+2025-06-25 12:03:17,685 20936 INFO tornado.routing instrumented
+2025-06-25 12:03:17,685 20936 INFO tornado.routing instrumented
+2025-06-25 12:03:17,686 20936 INFO async_cron.job is not present
+2025-06-25 12:03:17,686 20936 INFO async_cron.job is not present
+2025-06-25 12:03:17,687 20936 INFO celery.app.trace is not present
+2025-06-25 12:03:17,687 20936 INFO celery.app.trace is not present
+2025-06-25 12:03:17,688 20936 INFO celery.app.task is not present
+2025-06-25 12:03:17,688 20936 INFO celery.app.task is not present
+2025-06-25 12:03:17,689 20936 INFO gunicorn.workers.sync is not present
+2025-06-25 12:03:17,689 20936 INFO gunicorn.workers.sync is not present
+2025-06-25 12:03:17,690 20936 INFO gunicorn.http.wsgi is not present
+2025-06-25 12:03:17,690 20936 INFO gunicorn.http.wsgi is not present
+2025-06-25 12:03:17,690 20936 INFO waitress.task is not present
+2025-06-25 12:03:17,690 20936 INFO waitress.task is not present
+2025-06-25 12:03:17,691 20936 INFO cheroot.server is not present
+2025-06-25 12:03:17,691 20936 INFO cheroot.server is not present
+2025-06-25 12:03:17,692 20936 INFO cheroot.wsgi is not present
+2025-06-25 12:03:17,692 20936 INFO cheroot.wsgi is not present
+2025-06-25 12:03:17,704 20936 INFO wsgiref.handlers instrumented
+2025-06-25 12:03:17,704 20936 INFO wsgiref.handlers instrumented
+2025-06-25 12:03:17,721 20936 INFO werkzeug.debug instrumented
+2025-06-25 12:03:17,721 20936 INFO werkzeug.debug instrumented
+2025-06-25 12:03:17,722 20936 INFO werkzeug.serving instrumented
+2025-06-25 12:03:17,722 20936 INFO werkzeug.serving instrumented
+2025-06-25 12:03:17,722 20936 INFO werkzeug.wrappers.response instrumented
+2025-06-25 12:03:17,722 20936 INFO werkzeug.wrappers.response instrumented
+2025-06-25 12:03:17,722 20936 INFO pika.channel is not present
+2025-06-25 12:03:17,722 20936 INFO pika.channel is not present
+2025-06-25 12:03:18,479 20936 INFO Agent not hosted in cloud environment
+2025-06-25 12:03:18,479 20936 INFO Agent not hosted in cloud environment
+2025-06-25 12:03:19,058 17040 INFO http.client instrumented
+2025-06-25 12:03:19,058 17040 INFO http.client instrumented
+2025-06-25 12:03:19,058 17040 INFO urllib.request instrumented
+2025-06-25 12:03:19,058 17040 INFO urllib.request instrumented
+2025-06-25 12:03:19,059 17040 INFO concurrent.futures instrumented
+2025-06-25 12:03:19,059 17040 INFO concurrent.futures instrumented
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.asgi is not present
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.asgi is not present
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.wsgi is not present
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.wsgi is not present
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.base is not present
+2025-06-25 12:03:19,060 17040 INFO django.core.handlers.base is not present
+2025-06-25 12:03:19,060 17040 INFO django.conf.urls is not present
+2025-06-25 12:03:19,060 17040 INFO django.conf.urls is not present
+2025-06-25 12:03:19,061 17040 INFO django.urls is not present
+2025-06-25 12:03:19,061 17040 INFO django.urls is not present
+2025-06-25 12:03:19,061 17040 INFO django.template is not present
+2025-06-25 12:03:19,061 17040 INFO django.template is not present
+2025-06-25 12:03:19,061 17040 INFO django.core.wsgi is not present
+2025-06-25 12:03:19,061 17040 INFO django.core.wsgi is not present
+2025-06-25 12:03:19,062 17040 INFO django.core.asgi is not present
+2025-06-25 12:03:19,062 17040 INFO django.core.asgi is not present
+2025-06-25 12:03:19,064 17040 INFO sqlite3 instrumented
+2025-06-25 12:03:19,064 17040 INFO sqlite3 instrumented
+2025-06-25 12:03:19,064 17040 INFO sqlite3.dbapi2 instrumented
+2025-06-25 12:03:19,064 17040 INFO sqlite3.dbapi2 instrumented
+2025-06-25 12:03:19,065 17040 INFO pymysql is not present
+2025-06-25 12:03:19,065 17040 INFO pymysql is not present
+2025-06-25 12:03:19,065 17040 INFO MySQLdb.connections is not present
+2025-06-25 12:03:19,065 17040 INFO MySQLdb.connections is not present
+2025-06-25 12:03:19,220 17040 INFO flask instrumented
+2025-06-25 12:03:19,220 17040 INFO flask instrumented
+2025-06-25 12:03:19,221 17040 INFO redis.client is not present
+2025-06-25 12:03:19,221 17040 INFO redis.client is not present
+2025-06-25 12:03:19,221 17040 INFO redis.connection is not present
+2025-06-25 12:03:19,221 17040 INFO redis.connection is not present
+2025-06-25 12:03:19,221 17040 INFO redis.asyncio.client is not present
+2025-06-25 12:03:19,221 17040 INFO redis.asyncio.client is not present
+2025-06-25 12:03:19,221 17040 INFO jinja2.environment instrumented
+2025-06-25 12:03:19,221 17040 INFO jinja2.environment instrumented
+2025-06-25 12:03:19,222 17040 INFO pymemcache.client.base is not present
+2025-06-25 12:03:19,222 17040 INFO pymemcache.client.base is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2 is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2 is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2.extensions is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2.extensions is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2._psycopg is not present
+2025-06-25 12:03:19,222 17040 INFO psycopg2._psycopg is not present
+2025-06-25 12:03:19,223 17040 INFO psycopg2._json is not present
+2025-06-25 12:03:19,223 17040 INFO psycopg2._json is not present
+2025-06-25 12:03:19,223 17040 INFO cassandra.cluster is not present
+2025-06-25 12:03:19,223 17040 INFO cassandra.cluster is not present
+2025-06-25 12:03:19,224 17040 INFO memcache is not present
+2025-06-25 12:03:19,224 17040 INFO memcache is not present
+2025-06-25 12:03:19,224 17040 INFO bottle is not present
+2025-06-25 12:03:19,224 17040 INFO bottle is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cptree is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cptree is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cpwsgi is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cpwsgi is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cprequest is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cprequest is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cpdispatch is not present
+2025-06-25 12:03:19,225 17040 INFO cherrypy._cpdispatch is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.router is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.router is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.config is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.config is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.config.views is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.config.views is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.renderers is not present
+2025-06-25 12:03:19,226 17040 INFO pyramid.renderers is not present
+2025-06-25 12:03:19,227 17040 INFO pyramid.httpexceptions is not present
+2025-06-25 12:03:19,227 17040 INFO pyramid.httpexceptions is not present
+2025-06-25 12:03:19,227 17040 INFO mako.template is not present
+2025-06-25 12:03:19,227 17040 INFO mako.template is not present
+2025-06-25 12:03:19,227 17040 INFO genshi.template is not present
+2025-06-25 12:03:19,227 17040 INFO genshi.template is not present
+2025-06-25 12:03:19,228 17040 INFO genshi is not present
+2025-06-25 12:03:19,228 17040 INFO genshi is not present
+2025-06-25 12:03:19,326 17040 INFO httpx._client instrumented
+2025-06-25 12:03:19,326 17040 INFO httpx._client instrumented
+2025-06-25 12:03:19,327 17040 INFO httplib2 is not present
+2025-06-25 12:03:19,327 17040 INFO httplib2 is not present
+2025-06-25 12:03:19,352 17040 INFO urllib3.connectionpool instrumented
+2025-06-25 12:03:19,352 17040 INFO urllib3.connectionpool instrumented
+2025-06-25 12:03:19,353 17040 INFO asyncpg is not present
+2025-06-25 12:03:19,353 17040 INFO asyncpg is not present
+2025-06-25 12:03:19,353 17040 INFO aiomysql.cursors is not present
+2025-06-25 12:03:19,353 17040 INFO aiomysql.cursors is not present
+2025-06-25 12:03:19,353 17040 INFO aioredis.client is not present
+2025-06-25 12:03:19,353 17040 INFO aioredis.client is not present
+2025-06-25 12:03:19,353 17040 INFO aredis.client is not present
+2025-06-25 12:03:19,353 17040 INFO aredis.client is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.mongo_client is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.mongo_client is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.topology is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.topology is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.database is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.database is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.collection is not present
+2025-06-25 12:03:19,354 17040 INFO pymongo.collection is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.concurrency is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.concurrency is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.applications is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.applications is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.routing is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.routing is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.middleware.exceptions is not present
+2025-06-25 12:03:19,355 17040 INFO starlette.middleware.exceptions is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.exceptions is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.exceptions is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.middleware.errors is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.middleware.errors is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.background is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.background is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.responses is not present
+2025-06-25 12:03:19,356 17040 INFO starlette.responses is not present
+2025-06-25 12:03:19,357 17040 INFO fastapi.applications is not present
+2025-06-25 12:03:19,357 17040 INFO fastapi.applications is not present
+2025-06-25 12:03:19,357 17040 INFO fastapi.routing is not present
+2025-06-25 12:03:19,357 17040 INFO fastapi.routing is not present
+2025-06-25 12:03:19,358 17040 INFO cx_Oracle instrumented
+2025-06-25 12:03:19,358 17040 INFO cx_Oracle instrumented
+2025-06-25 12:03:19,359 17040 INFO oracledb is not present
+2025-06-25 12:03:19,359 17040 INFO oracledb is not present
+2025-06-25 12:03:19,359 17040 INFO pymssql is not present
+2025-06-25 12:03:19,359 17040 INFO pymssql is not present
+2025-06-25 12:03:19,359 17040 INFO pyodbc is not present
+2025-06-25 12:03:19,359 17040 INFO pyodbc is not present
+2025-06-25 12:03:19,360 17040 INFO streamlit.runtime.scriptrunner.script_runner is not present
+2025-06-25 12:03:19,360 17040 INFO streamlit.runtime.scriptrunner.script_runner is not present
+2025-06-25 12:03:19,399 17040 INFO tornado.httpserver instrumented
+2025-06-25 12:03:19,399 17040 INFO tornado.httpserver instrumented
+2025-06-25 12:03:19,400 17040 INFO tornado.routing instrumented
+2025-06-25 12:03:19,400 17040 INFO tornado.routing instrumented
+2025-06-25 12:03:19,400 17040 INFO async_cron.job is not present
+2025-06-25 12:03:19,400 17040 INFO async_cron.job is not present
+2025-06-25 12:03:19,401 17040 INFO celery.app.trace is not present
+2025-06-25 12:03:19,401 17040 INFO celery.app.trace is not present
+2025-06-25 12:03:19,401 17040 INFO celery.app.task is not present
+2025-06-25 12:03:19,401 17040 INFO celery.app.task is not present
+2025-06-25 12:03:19,401 17040 INFO gunicorn.workers.sync is not present
+2025-06-25 12:03:19,401 17040 INFO gunicorn.workers.sync is not present
+2025-06-25 12:03:19,402 17040 INFO gunicorn.http.wsgi is not present
+2025-06-25 12:03:19,402 17040 INFO gunicorn.http.wsgi is not present
+2025-06-25 12:03:19,402 17040 INFO waitress.task is not present
+2025-06-25 12:03:19,402 17040 INFO waitress.task is not present
+2025-06-25 12:03:19,403 17040 INFO cheroot.server is not present
+2025-06-25 12:03:19,403 17040 INFO cheroot.server is not present
+2025-06-25 12:03:19,403 17040 INFO cheroot.wsgi is not present
+2025-06-25 12:03:19,403 17040 INFO cheroot.wsgi is not present
+2025-06-25 12:03:19,406 17040 INFO wsgiref.handlers instrumented
+2025-06-25 12:03:19,406 17040 INFO wsgiref.handlers instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.debug instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.debug instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.serving instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.serving instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.wrappers.response instrumented
+2025-06-25 12:03:19,415 17040 INFO werkzeug.wrappers.response instrumented
+2025-06-25 12:03:19,415 17040 INFO pika.channel is not present
+2025-06-25 12:03:19,415 17040 INFO pika.channel is not present
+2025-06-25 12:03:19,467 17040 INFO Agent not hosted in cloud environment
+2025-06-25 12:03:19,467 17040 INFO Agent not hosted in cloud environment
+2025-06-25 12:03:22,303 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:22,303 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:22,308 17040 INFO CPU utilization stats thread started
+2025-06-25 12:03:22,308 17040 INFO CPU utilization stats thread started
+2025-06-25 12:03:22,308 17040 ERROR while creating WebTxn obj
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 134, in check_and_create_webtxn
+    if not self.is_data_collection_allowed(txn_config):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 67, in is_data_collection_allowed
+    res_codes_info.get(cur_status).get("name"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-06-25 12:03:22,308 17040 ERROR while creating WebTxn obj
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 134, in check_and_create_webtxn
+    if not self.is_data_collection_allowed(txn_config):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 67, in is_data_collection_allowed
+    res_codes_info.get(cur_status).get("name"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-06-25 12:03:22,309 17040 INFO CPU Utilization for process with PID 17040: 0.0%
+2025-06-25 12:03:22,309 17040 INFO CPU Utilization for process with PID 17040: 0.0%
+2025-06-25 12:03:22,363 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:22,363 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:22,363 17040 ERROR while creating WebTxn obj
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 134, in check_and_create_webtxn
+    if not self.is_data_collection_allowed(txn_config):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 67, in is_data_collection_allowed
+    res_codes_info.get(cur_status).get("name"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-06-25 12:03:22,363 17040 ERROR while creating WebTxn obj
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 134, in check_and_create_webtxn
+    if not self.is_data_collection_allowed(txn_config):
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\apminsight\agent.py", line 67, in is_data_collection_allowed
+    res_codes_info.get(cur_status).get("name"),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-06-25 12:03:30,136 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:30,136 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:31,156 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:31,156 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:31,157 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:31,157 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:31,158 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:31,158 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:31,338 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:31,338 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:31,338 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:31,338 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:34,740 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:34,740 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:34,800 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:34,800 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:34,800 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:34,800 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:36,643 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:36,643 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:36,711 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:36,711 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:36,711 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:36,711 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:39,786 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:39,786 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:39,879 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:39,879 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:39,882 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:39,882 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:50,189 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:50,189 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:50,486 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:50,486 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:50,487 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:50,487 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:50,489 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:50,489 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:50,645 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:50,645 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:50,645 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:50,645 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:55,746 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:55,746 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:55,782 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:55,782 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:55,786 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:55,786 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:58,680 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:58,680 17040 INFO Recieved the instance and threshold info from DataExporter successfully
+2025-06-25 12:03:58,690 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:58,690 17040 INFO Successfully constructed tansaction payload
+2025-06-25 12:03:58,690 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:03:58,690 17040 INFO Successfully pushed data to Dispatcher queue
+2025-06-25 12:04:22,362 17040 INFO CPU Utilization for process with PID 17040: 7.725%
+2025-06-25 12:04:22,362 17040 INFO CPU Utilization for process with PID 17040: 7.725%
+2025-06-25 12:05:22,363 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:05:22,363 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:06:22,364 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:06:22,364 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:07:22,366 17040 INFO CPU Utilization for process with PID 17040: 6.8%
+2025-06-25 12:07:22,366 17040 INFO CPU Utilization for process with PID 17040: 6.8%
+2025-06-25 12:08:22,367 17040 INFO CPU Utilization for process with PID 17040: 6.325%
+2025-06-25 12:08:22,367 17040 INFO CPU Utilization for process with PID 17040: 6.325%
+2025-06-25 12:09:22,368 17040 INFO CPU Utilization for process with PID 17040: 6.4%
+2025-06-25 12:09:22,368 17040 INFO CPU Utilization for process with PID 17040: 6.4%
+2025-06-25 12:10:22,369 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 12:10:22,369 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 12:11:22,371 17040 INFO CPU Utilization for process with PID 17040: 7.725%
+2025-06-25 12:11:22,371 17040 INFO CPU Utilization for process with PID 17040: 7.725%
+2025-06-25 12:12:22,372 17040 INFO CPU Utilization for process with PID 17040: 7.1%
+2025-06-25 12:12:22,372 17040 INFO CPU Utilization for process with PID 17040: 7.1%
+2025-06-25 12:13:22,374 17040 INFO CPU Utilization for process with PID 17040: 5.825%
+2025-06-25 12:13:22,374 17040 INFO CPU Utilization for process with PID 17040: 5.825%
+2025-06-25 12:14:22,375 17040 INFO CPU Utilization for process with PID 17040: 5.75%
+2025-06-25 12:14:22,375 17040 INFO CPU Utilization for process with PID 17040: 5.75%
+2025-06-25 12:15:22,391 17040 INFO CPU Utilization for process with PID 17040: 5.05%
+2025-06-25 12:15:22,391 17040 INFO CPU Utilization for process with PID 17040: 5.05%
+2025-06-25 12:16:22,392 17040 INFO CPU Utilization for process with PID 17040: 7.05%
+2025-06-25 12:16:22,392 17040 INFO CPU Utilization for process with PID 17040: 7.05%
+2025-06-25 12:17:22,393 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:17:22,393 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:18:22,394 17040 INFO CPU Utilization for process with PID 17040: 7.7%
+2025-06-25 12:18:22,394 17040 INFO CPU Utilization for process with PID 17040: 7.7%
+2025-06-25 12:19:22,395 17040 INFO CPU Utilization for process with PID 17040: 7.25%
+2025-06-25 12:19:22,395 17040 INFO CPU Utilization for process with PID 17040: 7.25%
+2025-06-25 12:20:22,397 17040 INFO CPU Utilization for process with PID 17040: 5.85%
+2025-06-25 12:20:22,397 17040 INFO CPU Utilization for process with PID 17040: 5.85%
+2025-06-25 12:21:22,398 17040 INFO CPU Utilization for process with PID 17040: 6.15%
+2025-06-25 12:21:22,398 17040 INFO CPU Utilization for process with PID 17040: 6.15%
+2025-06-25 12:22:22,400 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:22:22,400 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:23:22,401 17040 INFO CPU Utilization for process with PID 17040: 7.05%
+2025-06-25 12:23:22,401 17040 INFO CPU Utilization for process with PID 17040: 7.05%
+2025-06-25 12:24:22,403 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:24:22,403 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:25:22,405 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 12:25:22,405 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 12:26:22,405 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:26:22,405 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:27:22,407 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:27:22,407 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:28:22,408 17040 INFO CPU Utilization for process with PID 17040: 7.4%
+2025-06-25 12:28:22,408 17040 INFO CPU Utilization for process with PID 17040: 7.4%
+2025-06-25 12:29:22,409 17040 INFO CPU Utilization for process with PID 17040: 7.65%
+2025-06-25 12:29:22,409 17040 INFO CPU Utilization for process with PID 17040: 7.65%
+2025-06-25 12:30:22,410 17040 INFO CPU Utilization for process with PID 17040: 7.7%
+2025-06-25 12:30:22,410 17040 INFO CPU Utilization for process with PID 17040: 7.7%
+2025-06-25 12:31:22,412 17040 INFO CPU Utilization for process with PID 17040: 7.2%
+2025-06-25 12:31:22,412 17040 INFO CPU Utilization for process with PID 17040: 7.2%
+2025-06-25 12:32:22,413 17040 INFO CPU Utilization for process with PID 17040: 7.45%
+2025-06-25 12:32:22,413 17040 INFO CPU Utilization for process with PID 17040: 7.45%
+2025-06-25 12:33:22,415 17040 INFO CPU Utilization for process with PID 17040: 7.525%
+2025-06-25 12:33:22,415 17040 INFO CPU Utilization for process with PID 17040: 7.525%
+2025-06-25 12:34:22,419 17040 INFO CPU Utilization for process with PID 17040: 7.875%
+2025-06-25 12:34:22,419 17040 INFO CPU Utilization for process with PID 17040: 7.875%
+2025-06-25 12:35:22,420 17040 INFO CPU Utilization for process with PID 17040: 7.425%
+2025-06-25 12:35:22,420 17040 INFO CPU Utilization for process with PID 17040: 7.425%
+2025-06-25 12:36:22,425 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:36:22,425 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:37:22,427 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:37:22,427 17040 INFO CPU Utilization for process with PID 17040: 7.675%
+2025-06-25 12:38:22,428 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:38:22,428 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 12:39:22,430 17040 INFO CPU Utilization for process with PID 17040: 7.85%
+2025-06-25 12:39:22,430 17040 INFO CPU Utilization for process with PID 17040: 7.85%
+2025-06-25 12:40:22,431 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:40:22,431 17040 INFO CPU Utilization for process with PID 17040: 7.625%
+2025-06-25 12:41:22,433 17040 INFO CPU Utilization for process with PID 17040: 7.85%
+2025-06-25 12:41:22,433 17040 INFO CPU Utilization for process with PID 17040: 7.85%
+2025-06-25 12:42:22,434 17040 INFO CPU Utilization for process with PID 17040: 7.775%
+2025-06-25 12:42:22,434 17040 INFO CPU Utilization for process with PID 17040: 7.775%
+2025-06-25 12:43:22,435 17040 INFO CPU Utilization for process with PID 17040: 7.25%
+2025-06-25 12:43:22,435 17040 INFO CPU Utilization for process with PID 17040: 7.25%
+2025-06-25 12:44:22,437 17040 INFO CPU Utilization for process with PID 17040: 6.175%
+2025-06-25 12:44:22,437 17040 INFO CPU Utilization for process with PID 17040: 6.175%
+2025-06-25 12:45:22,439 17040 INFO CPU Utilization for process with PID 17040: 6.375%
+2025-06-25 12:45:22,439 17040 INFO CPU Utilization for process with PID 17040: 6.375%
+2025-06-25 12:46:22,439 17040 INFO CPU Utilization for process with PID 17040: 6.1%
+2025-06-25 12:46:22,439 17040 INFO CPU Utilization for process with PID 17040: 6.1%
+2025-06-25 12:47:22,440 17040 INFO CPU Utilization for process with PID 17040: 5.8%
+2025-06-25 12:47:22,440 17040 INFO CPU Utilization for process with PID 17040: 5.8%
+2025-06-25 12:48:22,442 17040 INFO CPU Utilization for process with PID 17040: 5.725%
+2025-06-25 12:48:22,442 17040 INFO CPU Utilization for process with PID 17040: 5.725%
+2025-06-25 12:49:22,447 17040 INFO CPU Utilization for process with PID 17040: 5.45%
+2025-06-25 12:49:22,447 17040 INFO CPU Utilization for process with PID 17040: 5.45%
+2025-06-25 12:50:22,449 17040 INFO CPU Utilization for process with PID 17040: 5.725%
+2025-06-25 12:50:22,449 17040 INFO CPU Utilization for process with PID 17040: 5.725%
+2025-06-25 12:51:22,450 17040 INFO CPU Utilization for process with PID 17040: 6.175%
+2025-06-25 12:51:22,450 17040 INFO CPU Utilization for process with PID 17040: 6.175%
+2025-06-25 12:52:22,451 17040 INFO CPU Utilization for process with PID 17040: 6.125%
+2025-06-25 12:52:22,451 17040 INFO CPU Utilization for process with PID 17040: 6.125%
+2025-06-25 12:53:22,454 17040 INFO CPU Utilization for process with PID 17040: 6.95%
+2025-06-25 12:53:22,454 17040 INFO CPU Utilization for process with PID 17040: 6.95%
+2025-06-25 12:54:22,455 17040 INFO CPU Utilization for process with PID 17040: 6.625%
+2025-06-25 12:54:22,455 17040 INFO CPU Utilization for process with PID 17040: 6.625%
+2025-06-25 12:55:22,457 17040 INFO CPU Utilization for process with PID 17040: 6.675%
+2025-06-25 12:55:22,457 17040 INFO CPU Utilization for process with PID 17040: 6.675%
+2025-06-25 12:56:22,459 17040 INFO CPU Utilization for process with PID 17040: 6.85%
+2025-06-25 12:56:22,459 17040 INFO CPU Utilization for process with PID 17040: 6.85%
+2025-06-25 12:57:22,460 17040 INFO CPU Utilization for process with PID 17040: 7.275%
+2025-06-25 12:57:22,460 17040 INFO CPU Utilization for process with PID 17040: 7.275%
+2025-06-25 12:58:22,464 17040 INFO CPU Utilization for process with PID 17040: 7.225%
+2025-06-25 12:58:22,464 17040 INFO CPU Utilization for process with PID 17040: 7.225%
+2025-06-25 12:59:22,469 17040 INFO CPU Utilization for process with PID 17040: 7.575%
+2025-06-25 12:59:22,469 17040 INFO CPU Utilization for process with PID 17040: 7.575%
+2025-06-25 13:00:22,471 17040 INFO CPU Utilization for process with PID 17040: 7.425%
+2025-06-25 13:00:22,471 17040 INFO CPU Utilization for process with PID 17040: 7.425%
+2025-06-25 13:01:22,472 17040 INFO CPU Utilization for process with PID 17040: 7.525%
+2025-06-25 13:01:22,472 17040 INFO CPU Utilization for process with PID 17040: 7.525%
+2025-06-25 13:02:22,474 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 13:02:22,474 17040 INFO CPU Utilization for process with PID 17040: 7.6%
+2025-06-25 13:03:22,475 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 13:03:22,475 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 13:04:22,476 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 13:04:22,476 17040 INFO CPU Utilization for process with PID 17040: 7.75%
+2025-06-25 13:05:22,477 17040 INFO CPU Utilization for process with PID 17040: 6.9%
+2025-06-25 13:05:22,477 17040 INFO CPU Utilization for process with PID 17040: 6.9%
+2025-06-25 13:06:22,478 17040 INFO CPU Utilization for process with PID 17040: 4.2%
+2025-06-25 13:06:22,478 17040 INFO CPU Utilization for process with PID 17040: 4.2%
+2025-06-25 13:07:22,480 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 13:07:22,480 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 13:08:22,481 17040 INFO CPU Utilization for process with PID 17040: 4.225%
+2025-06-25 13:08:22,481 17040 INFO CPU Utilization for process with PID 17040: 4.225%
+2025-06-25 13:09:22,482 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 13:09:22,482 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 13:10:22,483 17040 INFO CPU Utilization for process with PID 17040: 4.25%
+2025-06-25 13:10:22,483 17040 INFO CPU Utilization for process with PID 17040: 4.25%
+2025-06-25 13:11:22,484 17040 INFO CPU Utilization for process with PID 17040: 4.075%
+2025-06-25 13:11:22,484 17040 INFO CPU Utilization for process with PID 17040: 4.075%
+2025-06-25 13:12:22,491 17040 INFO CPU Utilization for process with PID 17040: 4.225%
+2025-06-25 13:12:22,491 17040 INFO CPU Utilization for process with PID 17040: 4.225%
+2025-06-25 13:13:22,492 17040 INFO CPU Utilization for process with PID 17040: 4.025%
+2025-06-25 13:13:22,492 17040 INFO CPU Utilization for process with PID 17040: 4.025%
+2025-06-25 13:14:22,493 17040 INFO CPU Utilization for process with PID 17040: 4.1%
+2025-06-25 13:14:22,493 17040 INFO CPU Utilization for process with PID 17040: 4.1%
+2025-06-25 13:15:22,503 17040 INFO CPU Utilization for process with PID 17040: 4.275%
+2025-06-25 13:15:22,503 17040 INFO CPU Utilization for process with PID 17040: 4.275%
+2025-06-25 13:16:22,507 17040 INFO CPU Utilization for process with PID 17040: 4.525%
+2025-06-25 13:16:22,507 17040 INFO CPU Utilization for process with PID 17040: 4.525%
+2025-06-25 14:10:10,793 17040 INFO CPU Utilization for process with PID 17040: 0.05%
+2025-06-25 14:10:10,793 17040 INFO CPU Utilization for process with PID 17040: 0.05%
+2025-06-25 14:11:10,805 17040 INFO CPU Utilization for process with PID 17040: 4.3%
+2025-06-25 14:11:10,805 17040 INFO CPU Utilization for process with PID 17040: 4.3%
+2025-06-25 14:12:10,810 17040 INFO CPU Utilization for process with PID 17040: 4.125%
+2025-06-25 14:12:10,810 17040 INFO CPU Utilization for process with PID 17040: 4.125%
+2025-06-25 14:13:10,811 17040 INFO CPU Utilization for process with PID 17040: 4.075%
+2025-06-25 14:13:10,811 17040 INFO CPU Utilization for process with PID 17040: 4.075%
+2025-06-25 14:14:10,812 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 14:14:10,812 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 14:15:10,813 17040 INFO CPU Utilization for process with PID 17040: 4.125%
+2025-06-25 14:15:10,813 17040 INFO CPU Utilization for process with PID 17040: 4.125%
+2025-06-25 14:16:10,815 17040 INFO CPU Utilization for process with PID 17040: 4.1%
+2025-06-25 14:16:10,815 17040 INFO CPU Utilization for process with PID 17040: 4.1%
+2025-06-25 14:17:10,817 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:17:10,817 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:18:10,818 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:18:10,818 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:19:10,819 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 14:19:10,819 17040 INFO CPU Utilization for process with PID 17040: 4.175%
+2025-06-25 14:20:10,821 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:20:10,821 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:21:10,821 17040 INFO CPU Utilization for process with PID 17040: 4.025%
+2025-06-25 14:21:10,821 17040 INFO CPU Utilization for process with PID 17040: 4.025%
+2025-06-25 14:22:10,822 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:22:10,822 17040 INFO CPU Utilization for process with PID 17040: 4.15%
+2025-06-25 14:23:10,824 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:23:10,824 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:24:10,825 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:24:10,825 17040 INFO CPU Utilization for process with PID 17040: 4.05%
+2025-06-25 14:25:10,825 17040 INFO CPU Utilization for process with PID 17040: 4.125%
+2025-06-25 14:25:10,825 17040 INFO CPU Utilization for process with PID 17040: 4.125%
