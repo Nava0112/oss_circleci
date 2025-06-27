@@ -212,6 +212,20 @@ def view_records(record_type):
 def admin_home():
     return render_template('admin_home.html')
 
+
+@app.route('/login_admin', methods=['GET', 'POST'])
+def login_admin():
+    if request.method == 'POST':
+        admin_id = request.form['AdminID']
+        admin_pass = request.form['AdminPassword']
+        if admin_id == '112233' and admin_pass == '123':
+            session['admin'] = True
+            return redirect(url_for('admin_home'))
+        else:
+            return "Invalid admin credentials"
+    return render_template('login_admin.html')
+
+
 # ------------------ LOGOUT ------------------
 @app.route('/logout')
 def logout():
